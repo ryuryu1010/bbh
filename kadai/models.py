@@ -1,7 +1,6 @@
 from django.db import models
 
 
-#他病院表
 
 class Tabyouin(models.Model):
     tabyouinid = models.CharField(max_length=8, primary_key=True)
@@ -12,7 +11,6 @@ class Tabyouin(models.Model):
     kyukyu = models.IntegerField()
 
 
-#仕入れ先表
 
 class Shiiregyosha(models.Model):
     shiireid = models.CharField(max_length=8, primary_key=True)
@@ -23,8 +21,6 @@ class Shiiregyosha(models.Model):
     nouki = models.IntegerField()
 
 
-#従業員表
-
 class Employee(models.Model):
     empid = models.CharField(max_length=8, primary_key=True)
     empfname = models.CharField(max_length=64)
@@ -33,7 +29,6 @@ class Employee(models.Model):
     emprole = models.IntegerField()
 
 
-#患者表
 
 class Patient(models.Model):
     patid = models.CharField(max_length=8, primary_key=True)
@@ -43,7 +38,6 @@ class Patient(models.Model):
     hokenexp = models.DateField()
 
 
-#薬剤表
 
 class Medicine(models.Model):
     medicineid = models.CharField(max_length=8, primary_key=True)
