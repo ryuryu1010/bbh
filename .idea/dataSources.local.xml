@@ -23,5 +23,10 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="Django default" uuid="906caef4-42b1-43f2-ab25-e8cdaa67e147">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" />
+      <user-name>R4A146</user-name>
+      <schema-mapping />
+    </data-source>
   </component>
 </project>
